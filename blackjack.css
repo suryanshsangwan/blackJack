@@ -1,0 +1,106 @@
+body{
+    background-image: url("./Res/bg.png");
+    font-family: 'Wellfleet', cursive;
+}
+
+#startPage{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#startPage img{
+    height:35vh;
+}
+
+#upsideDown{
+    height: 40vh;
+    transform: rotate(180deg);
+}
+
+.startButton{
+    height: 9vh;
+    font-size: larger;
+    width: fit-content;
+}
+
+.card{
+    height: 20vh;
+}
+
+#playPage{
+    display: none;
+    align-items: center;
+}
+
+#playContainer{
+    display: flex;
+    margin-bottom: 8vh;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#userContainer{
+    border: 3px;
+    border-style: double;
+    border-radius: 10vh;
+    height: 75vh;
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#playContainer img{
+height: 25vh;
+margin-right: 1vh;
+}
+
+#dealerContainer{
+    background-color: white;
+    border: 3px;
+    border-style: double;
+    border-radius: 10vh;
+    height: 75vh;
+    width: 49%;
+    margin-left: 2vh;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#controls{
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    height: 6vh;
+    font-size: larger;
+    font-weight: bolder;
+    border: 5px;
+    width: 3.5cm;
+    border-style: double;
+    background-color: gold;
+    border-radius: 2vh;
+    font-family: 'Wellfleet', cursive;
+    cursor: pointer;
+}
+
+#resultPage{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    margin: 0 1cm 0 0;
+}
+
+#btnNewGame{
+    width:fit-content;
+    height: 10vh;
+}

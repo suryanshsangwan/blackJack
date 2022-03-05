@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>BlackJack</title>
+<link rel="stylesheet" href="./blackjack.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Wellfleet&display=swap" rel="stylesheet">
+
+<body>
+    <section id="startPage">
+        <img src="Res/honors_spade-14.png">
+        <h1>Welcome to BlackJack</h1>
+        <input class="startButton" type="button" value="Start Game" onclick="start()"><br>
+        <img id="upsideDown" src="Res/back_cards-07.png">
+    </section>
+    <section id=playPage>
+        <section id=playContainer>
+            <section id="userContainer">
+                <h1>User's cards</h1>
+                <section id=userCardsContainer>
+                    
+                </section>
+                <h1 id=userTotal></h1>
+            </section>
+            <section id="dealerContainer">
+                <h1>Dealer's cards</h1>
+                <section id=dealerCardsContainer>
+
+                </section>
+                <h1 id=dealerTotal></h1>
+            </section>
+        </section>
+        <section id=controls>
+            <input type="button" value="Hit" onclick="hit()">
+            <input type="button" value="New Game" onclick="newGame()">
+            <input type="button" value="Stand" onclick="stand()">
+        </section>
+    </section>
+    <section id=resultPage>
+        <h1 id=result>
+
+        </h1>
+        <input id=btnNewGame type="button" value="New Game" onclick="newGame()">
+    </section>
+</body>
+<script src="blackjack.js"></script>
+</html>
